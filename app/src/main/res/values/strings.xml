@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name">First Android App</string>
-    <string name="txt_send">Send</string>
+    <string name="txt_send">Show Banner</string>
     <string name="txt_select_theme">Select Theme</string>
     <string name="txt_theme_dark">Dark Theme</string>
     <string name="txt_theme_light">Light Theme</string>
     <string name="txt_theme_auto">Default Theme</string>
+    <string name="txt_input_data">Banner text</string>
     <string name="input_data">Write something...</string>
     <string name="banner_text">My Banner</string>
 </resources>
