@@ -1,4 +1,4 @@
-package com.angelxehg.first.android.app;
+package com.angelxehg.utzac.android.examples.android.app;
 
 import org.junit.Test;
 

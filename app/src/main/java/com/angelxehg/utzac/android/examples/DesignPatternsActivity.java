@@ -1,4 +1,4 @@
-package com.angelxehg.first.android.app;
+package com.angelxehg.utzac.android.examples;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.angelxehg.utzac.android.examples.android.app.R;
 
 public class DesignPatternsActivity extends AppCompatActivity {
 
