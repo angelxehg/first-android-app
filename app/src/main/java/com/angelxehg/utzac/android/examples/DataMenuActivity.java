@@ -11,7 +11,7 @@ import com.angelxehg.utzac.android.examples.android.app.R;
 
 public class DataMenuActivity extends AppCompatActivity {
 
-    public static final String data = "com.angelxehg.first.android.app.DATA";
+    public static final String data = "com.angelxehg.utzac.android.examples.DATA";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
