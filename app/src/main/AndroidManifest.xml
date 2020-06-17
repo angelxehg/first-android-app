@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.angelxehg.first.android.app">
+    package="com.angelxehg.utzac.android.examples.android.app">
 
     <application
         android:allowBackup="true"
@@ -11,33 +11,33 @@
         android:theme="@style/AppTheme"
         android:fullBackupContent="@xml/backup_descriptor">
         <activity
-            android:name=".DataMenuActivity"
-            android:parentActivityName=".MainActivity">
+            android:name="com.angelxehg.utzac.android.examples.android.app.com.angelxehg.utzac.DataMenuActivity"
+            android:parentActivityName="com.angelxehg.utzac.android.examples.android.app.com.angelxehg.utzac.MainActivity">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.angelxehg.first.android.app.MainActivity" />
+                android:value="com.angelxehg.utzac.android.examples.android.app.com.angelxehg.utzac.MainActivity" />
         </activity>
         <activity
-            android:name=".DataActivity"
-            android:parentActivityName=".DataMenuActivity">
+            android:name="com.angelxehg.utzac.android.examples.android.app.com.angelxehg.utzac.DataActivity"
+            android:parentActivityName="com.angelxehg.utzac.android.examples.android.app.com.angelxehg.utzac.DataMenuActivity">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.angelxehg.first.android.app.DataMenuActivity" />
+                android:value="com.angelxehg.utzac.android.examples.android.app.com.angelxehg.utzac.DataMenuActivity" />
         </activity>
         <activity
-            android:name=".DesignPatternsActivity"
-            android:parentActivityName=".MainActivity">
+            android:name="com.angelxehg.utzac.android.examples.android.app.com.angelxehg.utzac.DesignPatternsActivity"
+            android:parentActivityName="com.angelxehg.utzac.android.examples.android.app.com.angelxehg.utzac.MainActivity">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.angelxehg.first.android.app.MainActivity" />
+                android:value="com.angelxehg.utzac.android.examples.android.app.com.angelxehg.utzac.MainActivity" />
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name="com.angelxehg.utzac.android.examples.android.app.com.angelxehg.utzac.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

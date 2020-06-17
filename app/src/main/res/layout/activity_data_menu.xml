@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DataMenuActivity">
+    tools:context="com.angelxehg.utzac.android.examples.DataMenuActivity">
 
     <TextView
         android:id="@+id/inputText_textView"

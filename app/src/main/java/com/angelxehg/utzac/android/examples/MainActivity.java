@@ -1,13 +1,13 @@
-package com.angelxehg.first.android.app;
+package com.angelxehg.utzac.android.examples;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.widget.EditText;
+
+import com.angelxehg.utzac.android.examples.android.app.R;
 
 public class MainActivity extends AppCompatActivity {
     

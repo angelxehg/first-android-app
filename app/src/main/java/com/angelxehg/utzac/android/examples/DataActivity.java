@@ -1,10 +1,12 @@
-package com.angelxehg.first.android.app;
+package com.angelxehg.utzac.android.examples;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
+
+import com.angelxehg.utzac.android.examples.android.app.R;
 
 public class DataActivity extends AppCompatActivity {
 
