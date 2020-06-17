@@ -19,6 +19,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    public void openDesignPatternsActivity(View view) {
+        Intent i = new Intent(this, DesignPatternsActivity.class);
+        startActivity(i);
+    }
+
     public void showData(View view){
         Intent i = new Intent(this, DataActivity.class);
         EditText edt1 = (EditText) findViewById(R.id.editText);
