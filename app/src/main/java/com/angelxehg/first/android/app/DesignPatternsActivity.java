@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 public class DesignPatternsActivity extends AppCompatActivity {
 
@@ -16,5 +17,10 @@ public class DesignPatternsActivity extends AppCompatActivity {
         ly.setOrientation(LinearLayout.VERTICAL);
         ly.setBackgroundColor(Color.GRAY);
         setContentView(ly);
+        
+        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+        TextView tv1 = new TextView(getApplicationContext());
+        tv1.setText("Hello world");
+        ly.addView(tv1, params);
     }
 }
