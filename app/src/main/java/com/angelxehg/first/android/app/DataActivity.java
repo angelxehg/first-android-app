@@ -13,7 +13,7 @@ public class DataActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_data);
         Intent i = getIntent();
-        String value = i.getStringExtra(MainActivity.data);
+        String value = i.getStringExtra(DataMenuActivity.data);
         TextView tv1 = findViewById(R.id.textView);
         tv1.setText(value);
     }

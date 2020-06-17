@@ -10,8 +10,6 @@ import android.view.View;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
-
-    public static final String data = "com.angelxehg.first.android.app.DATA";
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,16 +17,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void openDesignPatternsActivity(View view) {
-        Intent i = new Intent(this, DesignPatternsActivity.class);
+    public void openDataMenuActivity(View view) {
+        Intent i = new Intent(this, DataMenuActivity.class);
         startActivity(i);
     }
 
-    public void showData(View view){
-        Intent i = new Intent(this, DataActivity.class);
-        EditText edt1 = (EditText) findViewById(R.id.editText);
-        String value = edt1.getText().toString();
-        i.putExtra(data, value);
+    public void openDesignPatternsActivity(View view) {
+        Intent i = new Intent(this, DesignPatternsActivity.class);
         startActivity(i);
     }
 
