@@ -10,6 +10,6 @@
     <string name="txt_theme_light">Light Theme</string>
     <string name="txt_theme_auto">Default Theme</string>
     <string name="txt_input_data">Banner text</string>
-    <string name="input_data">Write something...</string>
+    <string name="input_data">Write something</string>
     <string name="banner_text">My Banner</string>
 </resources>

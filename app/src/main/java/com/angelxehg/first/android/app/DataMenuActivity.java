@@ -19,7 +19,7 @@ public class DataMenuActivity extends AppCompatActivity {
 
     public void showData(View view){
         Intent i = new Intent(this, DataActivity.class);
-        EditText edt1 = (EditText) findViewById(R.id.editText);
+        EditText edt1 = findViewById(R.id.editText);
         String value = edt1.getText().toString();
         i.putExtra(data, value);
         startActivity(i);
