@@ -27,6 +27,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void openIntentActivity(View view) {
+        Intent i = new Intent(this, IntentActivity.class);
+        startActivity(i);
+    }
+
     public void setDarkTheme(View view) {
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
     }
