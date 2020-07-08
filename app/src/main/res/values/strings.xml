@@ -12,4 +12,6 @@
     <string name="txt_input_data">Banner text</string>
     <string name="input_data">Write something</string>
     <string name="banner_text">My Banner</string>
+    <string name="btn_open_intent">Launch Intent</string>
+    <string name="txt_input_url">Enter a URL...</string>
 </resources>
