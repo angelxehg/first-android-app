@@ -15,4 +15,8 @@
     <string name="btn_open_intent">Launch Intent</string>
     <string name="txt_input_url">Enter a URL...</string>
     <string name="txt_open_intent">Intents</string>
+    <string name="btn_open_alarm_intent">Create an Alarm</string>
+    <string name="btn_open_calendar_intent">Launch Calendar</string>
+    <string name="txt_input_search">Search...</string>
+    <string name="btn_open_search_intent">Launch Search</string>
 </resources>
