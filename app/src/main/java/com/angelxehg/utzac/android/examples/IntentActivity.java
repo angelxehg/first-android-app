@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.provider.AlarmClock;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
@@ -20,6 +21,26 @@ public class IntentActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intent);
         myURL = findViewById(R.id.edtURL);
+    }
+
+    public void openAlarm(View view) {
+        Intent intent = new Intent(AlarmClock.ACTION_SET_ALARM)
+                .putExtra(AlarmClock.EXTRA_MESSAGE, "Example Alarm")
+                .putExtra(AlarmClock.EXTRA_HOUR, 23)
+                .putExtra(AlarmClock.EXTRA_MINUTES, 30);
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        } else {
+            Log.e("error", "Can't setup alarm");
+        }
+    }
+
+    public void openCalendar(View view) {
+
+    }
+
+    public void openSearch(View view) {
+
     }
 
     public void openBrowser(View view) {
