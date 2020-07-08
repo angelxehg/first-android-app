@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.AlarmClock;
+import android.provider.CalendarContract;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
@@ -36,7 +37,14 @@ public class IntentActivity extends AppCompatActivity {
     }
 
     public void openCalendar(View view) {
-
+        Intent intent = new Intent(Intent.ACTION_INSERT)
+                .setData(CalendarContract.Events.CONTENT_URI)
+                .putExtra(CalendarContract.Events.TITLE, "Example Event");
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        } else {
+            Log.e("error", "Can't setup calendar");
+        }
     }
 
     public void openSearch(View view) {
