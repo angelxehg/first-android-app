@@ -10,7 +10,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.angelxehg.utzac.android.examples.IntentActivity"></activity>
+        <activity
+            android:name="com.angelxehg.utzac.android.examples.IntentActivity"
+            android:parentActivityName="com.angelxehg.utzac.android.examples.MainActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.angelxehg.utzac.android.examples.MainActivity" />
+        </activity>
         <activity
             android:name="com.angelxehg.utzac.android.examples.DataMenuActivity"
             android:parentActivityName="com.angelxehg.utzac.android.examples.MainActivity">
