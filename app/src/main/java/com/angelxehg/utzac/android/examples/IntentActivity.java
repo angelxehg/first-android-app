@@ -2,6 +2,7 @@ package com.angelxehg.utzac.android.examples;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.SearchManager;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -16,12 +17,14 @@ import com.angelxehg.utzac.android.examples.android.app.R;
 public class IntentActivity extends AppCompatActivity {
 
     private EditText myURL;
+    private EditText myQuery;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intent);
         myURL = findViewById(R.id.edtURL);
+        myQuery = findViewById(R.id.edtSearch);
     }
 
     public void openAlarm(View view) {
@@ -48,11 +51,18 @@ public class IntentActivity extends AppCompatActivity {
     }
 
     public void openSearch(View view) {
-
+        String query = myQuery.getText().toString();
+        Intent intent = new Intent(Intent.ACTION_WEB_SEARCH);
+        intent.putExtra(SearchManager.QUERY, query);
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        } else {
+            Log.e("error", "Can't open search");
+        }
     }
 
     public void openBrowser(View view) {
-        String url =myURL.getText().toString();
+        String url = myURL.getText().toString();
         Uri page = Uri.parse(url);
         Intent web = new Intent(Intent.ACTION_VIEW, page);
         if(web.resolveActivity(getPackageManager()) != null) {
