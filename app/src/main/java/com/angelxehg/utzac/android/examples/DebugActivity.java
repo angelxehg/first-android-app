@@ -15,12 +15,20 @@ public class DebugActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_debug);
     }
-    
-    public void LaunchToast(View view) {
-        this.showToast("Hello");
-    }
 
     public void showToast(String message) {
         Toast.makeText(getApplicationContext(), message,Toast.LENGTH_SHORT).show();
+    }
+
+    public void LaunchStar(View view) {
+        this.showToast("Star!");
+    }
+
+    public void LaunchCheck(View view) {
+        this.showToast("Check!");
+    }
+
+    public void LaunchBar(View view) {
+        this.showToast("Bar!");
     }
 }
