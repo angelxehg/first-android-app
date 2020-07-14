@@ -44,4 +44,8 @@ public class MainActivity extends AppCompatActivity {
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_AUTO_BATTERY);
     }
 
+    public void openDebugActivity(View view) {
+        Intent i = new Intent(this, DebugActivity.class);
+        startActivity(i);
+    }
 }
