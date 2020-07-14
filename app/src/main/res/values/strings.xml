@@ -21,4 +21,6 @@
     <string name="btn_open_search_intent">Launch Search</string>
     <string name="txt_open_debug">Debug</string>
     <string name="txt_debug_me">Debug Me!</string>
+    <string name="first_view">First View</string>
+    <string name="image_descr">TODO</string>
 </resources>
