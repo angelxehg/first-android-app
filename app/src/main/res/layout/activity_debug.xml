@@ -6,4 +6,15 @@
     android:layout_height="match_parent"
     tools:context="com.angelxehg.utzac.android.examples.DebugActivity">
 
+    <Button
+        android:id="@+id/btn_DebugMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="debugMe"
+        android:text="@string/txt_debug_me"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
