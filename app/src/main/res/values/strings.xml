@@ -19,4 +19,5 @@
     <string name="btn_open_calendar_intent">Launch Calendar</string>
     <string name="txt_input_search">Search…</string>
     <string name="btn_open_search_intent">Launch Search</string>
+    <string name="txt_open_debug">Debug</string>
 </resources>
