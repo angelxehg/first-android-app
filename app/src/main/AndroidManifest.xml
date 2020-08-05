@@ -12,6 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name="com.angelxehg.utzac.android.examples.TopMenuContentActivity"></activity>
+        <activity android:name="com.angelxehg.utzac.android.examples.TopMenuActivity" />
         <activity
             android:name="com.angelxehg.utzac.android.examples.DebugActivity"
             android:parentActivityName="com.angelxehg.utzac.android.examples.MainActivity">
