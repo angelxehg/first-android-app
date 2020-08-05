@@ -144,7 +144,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_openDesignPatterns" />
 
     <TextView
-        android:id="@+id/tvw_appname"
+        android:id="@+id/tvw_maindescr"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
