@@ -48,4 +48,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, DebugActivity.class);
         startActivity(i);
     }
+
+    public void openAssetMenuActivity(View view) {
+        Intent i = new Intent(this, BasicActivity.class);
+        startActivity(i);
+    }
 }
