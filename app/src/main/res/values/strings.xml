@@ -21,8 +21,33 @@
     <string name="btn_open_search_intent">Launch Search</string>
     <string name="txt_open_debug">Image Views</string>
     <string name="txt_debug_me">Debug Me!</string>
-    <string name="txt_topmenu_title">Title</string>
-    <string name="txt_topmenu_description">Content</string>
     <string name="first_view">First View</string>
     <string name="image_descr">TODO</string>
+    <string name="title_activity_basic">BasicActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="txt_open_asset_menu">Asset Menu</string>
+    <string name="txt_ba_title">Asset Menu</string>
+    <string name="txt_ba_description">This is an asset menu. Images from Unsplash.</string>
+    <string name="txt_ba_img1_title">Spring</string>
+    <string name="txt_ba_img1_description">Photo by Sergey Shmidt on Unsplash</string>
+    <string name="txt_ba_img1_url">https://unsplash.com/photos/koy6FlCCy5s</string>
+
+    <string name="txt_ba_img2_title">Summer</string>
+    <string name="txt_ba_img2_description">Photo by Sean O. on Unsplash</string>
+    <string name="txt_ba_img2_url">https://unsplash.com/photos/KMn4VEeEPR8</string>
+
+    <string name="txt_ba_img3_title">Autumn</string>
+    <string name="txt_ba_img3_description">Photo by Timothy Eberly on Unsplash</string>
+    <string name="txt_ba_img3_url">https://unsplash.com/photos/yuiJO6bvHi4</string>
+
+    <string name="txt_ba_img4_title">Winter</string>
+    <string name="txt_ba_img4_description">Photo by Adam Chang on Unsplash</string>
+    <string name="txt_ba_img4_url">https://unsplash.com/photos/IWenq-4JHqo</string>
 </resources>

@@ -12,8 +12,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.angelxehg.utzac.android.examples.TopMenuContentActivity"></activity>
-        <activity android:name="com.angelxehg.utzac.android.examples.TopMenuActivity" />
+        <activity
+            android:name="com.angelxehg.utzac.android.examples.BasicActivity"
+            android:label="@string/title_activity_basic"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName="com.angelxehg.utzac.android.examples.MainActivity">
+            
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.angelxehg.utzac.android.examples.MainActivity" />
+        </activity>
         <activity
             android:name="com.angelxehg.utzac.android.examples.DebugActivity"
             android:parentActivityName="com.angelxehg.utzac.android.examples.MainActivity">
